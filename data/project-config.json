@@ -1,0 +1,68 @@
+{
+  "gcp-eu": [
+    {
+      "projectId": "master-of-puppets",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "queen-production",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "eu-production",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "production-12",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "stg-61",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "production-25",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    }
+  ],
+  "gcp-us": [
+    {
+      "projectId": "pokemon-prod",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "b2b-prod",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "b2c-prod",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "test-us",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    },
+    {
+      "projectId": "demo-us",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    }
+  ],
+  "gcp-au": [
+    {
+      "projectId": "test-au",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
+    }
+  ]
+}
