@@ -5,6 +5,9 @@ FROM node:12-slim
 # Create and change to the app directory.
 WORKDIR /usr/src/app
 
+# Install Nodegit dependencies to run properly
+RUN apt install libcurl3-gnutls
+
 # Copy application dependency manifests to the container image.
 # A wildcard is used to ensure copying both package.json AND package-lock.json (when available).
 # Copying this first prevents re-running npm install on every code change.
