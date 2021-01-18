@@ -1,4 +1,6 @@
 const NodeGit = require('nodegit');
+const express = require('express');
+const app = express();
 const { 
   deleteFolderRecursive,
   cloneRepo,
@@ -52,5 +54,13 @@ const testinggitoperations = async () => {
   deleteFolderRecursive(localPath);
 };
 
+app.get('/', async (req, res) => {
+  const name = process.env.NAME || 'World';
+  await testinggitoperations();
+  res.send(`Hello ${name}!`);
+});
 
-testinggitoperations();
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+  console.log(`helloworld: listening on port ${port}`);
+});
