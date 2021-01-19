@@ -11,11 +11,6 @@
       "tier": "PREMIUM"
     },
     {
-      "projectId": "eu-production",
-      "expirationDays": 730,
-      "tier": "PREMIUM"
-    },
-    {
       "projectId": "production-12",
       "expirationDays": 730,
       "tier": "PREMIUM"
