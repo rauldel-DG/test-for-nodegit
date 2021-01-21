@@ -59,7 +59,7 @@ const setOperation = async (req, res) => {
   try {
     // HARDCODED PARAMS
     const projectKey = 'eu-production';
-    const tier = 'BASIC';
+    const tier = 'PREMIUM';
 
     const cloneURL = `https://${process.env.GITHUB_USER}:${process.env.GITHUB_TOKEN}@github.com/rauldel-DG/${process.env.REPOSITORY_NAME}.git`;
     const localPath = path.join(__dirname, 'tmp_repo');
@@ -87,7 +87,6 @@ const setOperation = async (req, res) => {
       // If this, we create a new branch locally
       createBranchCMD(branchName);
     }
-    console.log('Brancho relaxo');
 
     const projectConfigFile = JSON.parse(readFileCMD(clonedRepoBasePath, 'data/project-config.json'));
     const project = projectConfigFile[process.env.CLOUD_IDENTIFIER].find((p) => p.projectId === projectKey);
