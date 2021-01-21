@@ -29,6 +29,11 @@
       "projectId": "production-25",
       "expirationDays": 730,
       "tier": "PREMIUM"
+    },
+    {
+      "projectId": "nico-test-project-jr",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
     }
   ],
   "gcp-us": [
