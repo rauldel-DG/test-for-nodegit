@@ -34,6 +34,11 @@
       "projectId": "nico-test-project-2",
       "expirationDays": 730,
       "tier": "PREMIUM"
+    },
+    {
+      "projectId": "nico-test-project-3",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
     }
   ],
   "gcp-us": [
