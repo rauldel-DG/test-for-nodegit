@@ -34,6 +34,11 @@
       "projectId": "expecto-patronum",
       "expirationDays": 730,
       "tier": "PREMIUM"
+    },
+    {
+      "projectId": "expecto-patronum-2",
+      "expirationDays": 730,
+      "tier": "PREMIUM"
     }
   ],
   "gcp-us": [
